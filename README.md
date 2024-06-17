@@ -1,4 +1,4 @@
-# Classify pipline software
+# Assembly free reads accurate identification (AFRAID)
 
 This software is used to
 

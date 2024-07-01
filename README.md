@@ -27,13 +27,13 @@ You need to construct your own databse for species which is a fasta file with se
 ## Usage
 python classify-pipline.py --bwa bwa_path --samtools samtools_path --blast blastn_path --database ./classify/Database/ -r1 Fastq_R1.fq.gz -r2 Fastq_R2.fq.gz --sample output_name
 ## Directions
---bwa bwa_path # Specify the installation directory for this software
---samtools samtools_path # Specify the installation directory for this software
---blast blastn_path # Specify the installation directory for this software
---database ./classify/Database/ # Specify the directory for the reference database
--r1 Fastq_R1.fq.gz # Specify the first direction NGS data for plant species identification
--r2 Fastq_R2.fq.gz # Specify the second direction NGS data for plant species identification
---sample output_name # give a name of the output file
+## --bwa bwa_path # Specify the installation directory for this software
+## --samtools samtools_path # Specify the installation directory for this software
+## --blast blastn_path # Specify the installation directory for this software
+## --database ./classify/Database/ # Specify the directory for the reference database
+## -r1 Fastq_R1.fq.gz # Specify the first direction NGS data for plant species identification
+## -r2 Fastq_R2.fq.gz # Specify the second direction NGS data for plant species identification
+## --sample output_name # give a name of the output file
 ## Result
 The result will be saved in "output_name.count.result.xls".The results are presented in three columns. Also the results will be sorted in descending order.
 
